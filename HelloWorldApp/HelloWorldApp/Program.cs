@@ -10,19 +10,22 @@ namespace HelloWorldApp
     {
         static void Main(string[] args)
         {
+            var human = new A(25);
+
+            Console.WriteLine(human.Age);
+
             Console.ReadLine();
         }
     }
 
-    public  class A
+    public class A
     {
-        private int Age { get; set; }
-
         public string Name { get; }
+        public int Age { get; }
 
-        public A(string name)
+        public A(int age)
         {
-            Name = name;
+            Age = age;
         }
     }
 }
