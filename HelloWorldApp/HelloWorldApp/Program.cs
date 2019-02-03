@@ -10,6 +10,7 @@ namespace HelloWorldApp
     {
         static void Main(string[] args)
         {
+            Console.ReadLine();
         }
     }
 }
