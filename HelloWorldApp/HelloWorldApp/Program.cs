@@ -20,6 +20,7 @@ namespace HelloWorldApp
 
     public class A
     {
+        public string Name { get; }
         public int Age { get; }
 
         public A(int age)
