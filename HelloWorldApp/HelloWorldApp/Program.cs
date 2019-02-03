@@ -13,4 +13,16 @@ namespace HelloWorldApp
             Console.ReadLine();
         }
     }
+
+    public  class A
+    {
+        private int Age { get; set; }
+
+        public string Name { get; }
+
+        public A(string name)
+        {
+            Name = name;
+        }
+    }
 }
